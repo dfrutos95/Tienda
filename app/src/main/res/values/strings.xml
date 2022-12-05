@@ -3,4 +3,5 @@
     <string name="title_home">Novedades</string>
     <string name="title_dashboard">Cesta</string>
     <string name="title_notifications">Categorías</string>
+    <string name="bienvenido">Hola</string>
 </resources>
