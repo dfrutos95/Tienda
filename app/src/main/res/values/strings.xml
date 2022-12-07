@@ -8,4 +8,9 @@
     <string name="nombrePrenda">Camiseta roja</string>
     <string name="precioPrenda">15€</string>
     <string name="descripcion">Increible camiseta de algodon 100% reciclado, de color rojo Ferrari, disponible en una gran variedad de tallas</string>
+    <string name="prenda1">Camiseta de tirantes</string>
+    <string name="prenda2">Camiseta de tirantes</string>
+    <string name="prenda3">Pantalón</string>
+    <string name="prenda4">Pantlaón</string>
+    <string name="prenda5">Camiseta</string>
 </resources>

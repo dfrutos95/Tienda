@@ -51,55 +51,61 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent">
 
-                <ImageButton
-                    android:id="@+id/imageButton3"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:src="@drawable/ilustraci_n_sin_t_tulo"
-                    android:onClick="abrir"/>
 
-                <ImageButton
-                    android:id="@+id/imageButton4"
+                <Button
+                    android:id="@+id/prenda1"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:src="@drawable/ilustraci_n_sin_t_tulo_1"
-                    android:onClick="abrir"/>
+                    android:drawableTop="@drawable/ilustraci_n_sin_t_tulo"
+                    android:onClick="abrir"
+                    android:text="@string/prenda1" />
+
+                <Button
+                    android:id="@+id/prenda2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:drawableTop="@drawable/ilustraci_n_sin_t_tulo_1"
+                    android:onClick="abrir"
+                    android:text="@string/prenda2" />
             </TableRow>
 
             <TableRow
                 android:layout_width="match_parent"
                 android:layout_height="match_parent">
 
-                <ImageButton
-                    android:id="@+id/imageButton5"
+                <Button
+                    android:id="@+id/button6"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:src="@drawable/ilustraci_n_sin_t_tulo_2"
-                    android:onClick="abrir"/>
+                    android:drawableTop="@drawable/ilustraci_n_sin_t_tulo_2"
+                    android:onClick="abrir"
+                    android:text="@string/prenda3" />
 
-                <ImageButton
-                    android:id="@+id/imageButton6"
+                <Button
+                    android:id="@+id/button7"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:src="@drawable/ilustraci_n_sin_t_tulo_3"
-                    android:onClick="abrir"/>
+                    android:drawableTop="@drawable/ilustraci_n_sin_t_tulo_3"
+                    android:onClick="abrir"
+                    android:text="@string/prenda4" />
             </TableRow>
 
             <TableRow
                 android:layout_width="match_parent"
                 android:layout_height="match_parent">
 
-                <ImageButton
-                    android:id="@+id/imageButton7"
+                <Button
+                    android:id="@+id/button3"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:src="@drawable/ilustraci_n_sin_t_tulo_4"
-                    android:onClick="abrir"/>
+                    android:drawableTop="@drawable/ilustraci_n_sin_t_tulo_4"
+                    android:onClick="abrir"
+                    android:text="@string/prenda5" />
             </TableRow>
 
         </TableLayout>

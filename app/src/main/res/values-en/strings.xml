@@ -9,5 +9,10 @@
     <string name="nombrePrenda">Red T-Shirt</string>
     <string name="precioPrenda">15$</string>
     <string name="descripcion">Amazing cotton T_Shirt made entirely out of recycled materials, in red color. Available i a wide range of sizes</string>
+    <string name="prenda1">Tank top</string>
+    <string name="prenda2">Tank top</string>
+    <string name="prenda3">Jeans</string>
+    <string name="prenda4">Jeans</string>
+    <string name="prenda5">T-Shirt</string>
 
 </resources>
