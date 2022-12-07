@@ -46,11 +46,14 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void abrir(View view){
-        mostrarPrenda();
+        mostrarPrenda(view);
     }
 
-    public void mostrarPrenda(){
+    public void mostrarPrenda(View view){
+        Button b = (Button) view;
+        String nombre = String.valueOf(b.getText());
         Intent abrirTienda = new Intent(this, Prenda.class);
+        abrirTienda.putExtra("Nombre", nombre);
         startActivity(abrirTienda);
     }
 

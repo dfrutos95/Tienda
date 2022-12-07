@@ -7,14 +7,19 @@ import android.graphics.Bitmap;
 import android.graphics.drawable.Drawable;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.TextView;
 
 public class Prenda extends AppCompatActivity {
     Drawable imagen;
+    String nombre;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_prenda);
         Bundle detalles = getIntent().getExtras();
+        nombre = detalles.getString("Nombre");
+        TextView tv = (TextView)findViewById(R.id.nombrePrenda);
+        tv.setText(nombre);
 
     }
     public void cerrar(View view){
