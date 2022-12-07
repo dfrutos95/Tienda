@@ -4,4 +4,8 @@
     <string name="title_dashboard">Cesta</string>
     <string name="title_notifications">Categorías</string>
     <string name="bienvenido">Hola</string>
+    <string name="Condiciones">Al pulsar sobre este boton, accedes a ponernos un 10 en el trabajo</string>
+    <string name="nombrePrenda">Camiseta roja</string>
+    <string name="precioPrenda">15€</string>
+    <string name="descripcion">Increible camiseta de algodon 100% reciclado, de color rojo Ferrari, disponible en una gran variedad de tallas</string>
 </resources>

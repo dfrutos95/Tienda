@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Store</string>
+    <string name="title_home">News</string>
+    <string name="title_dashboard">Cart</string>
+    <string name="title_notifications">Categories</string>
+    <string name="bienvenido">Welcome</string>
+    <string name="Condiciones">By checking this box, you accept marking our work with a 10</string>
+    <string name="nombrePrenda">Red T-Shirt</string>
+    <string name="precioPrenda">15$</string>
+    <string name="descripcion">Amazing cotton T_Shirt made entirely out of recycled materials, in red color. Available i a wide range of sizes</string>
+
+</resources>
