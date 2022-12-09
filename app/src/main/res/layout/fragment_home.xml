@@ -57,18 +57,22 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:drawableTop="@drawable/ilustraci_n_sin_t_tulo"
+                    android:backgroundTint="@android:color/white"
+                    android:drawableTop="@mipmap/tirantes_2_foreground"
                     android:onClick="abrir"
-                    android:text="@string/prenda1" />
+                    android:text="@string/prenda1"
+                    android:textColor="@android:color/black" />
 
                 <Button
                     android:id="@+id/prenda2"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:drawableTop="@drawable/ilustraci_n_sin_t_tulo_1"
+                    android:drawableTop="@mipmap/tirantes_1_foreground"
                     android:onClick="abrir"
-                    android:text="@string/prenda2" />
+                    android:text="@string/prenda2"
+                    android:backgroundTint="@android:color/white"
+                    android:textColor="@android:color/black"/>
             </TableRow>
 
             <TableRow
@@ -80,18 +84,22 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:drawableTop="@drawable/ilustraci_n_sin_t_tulo_2"
+                    android:drawableTop="@mipmap/pantalon_1_foreground"
                     android:onClick="abrir"
-                    android:text="@string/prenda3" />
+                    android:text="@string/prenda3"
+                    android:backgroundTint="@android:color/white"
+                    android:textColor="@android:color/black"/>
 
                 <Button
                     android:id="@+id/button7"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:drawableTop="@drawable/ilustraci_n_sin_t_tulo_3"
+                    android:drawableTop="@mipmap/pantalon_2_foreground"
                     android:onClick="abrir"
-                    android:text="@string/prenda4" />
+                    android:text="@string/prenda4"
+                    android:backgroundTint="@android:color/white"
+                    android:textColor="@android:color/black"/>
             </TableRow>
 
             <TableRow
@@ -103,9 +111,11 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:drawableTop="@drawable/ilustraci_n_sin_t_tulo_4"
+                    android:drawableTop="@mipmap/camiseta_1_foreground"
                     android:onClick="abrir"
-                    android:text="@string/prenda5" />
+                    android:text="@string/prenda5"
+                    android:backgroundTint="@android:color/white"
+                    android:textColor="@android:color/black"/>
             </TableRow>
 
         </TableLayout>
