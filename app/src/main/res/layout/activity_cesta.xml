@@ -261,8 +261,8 @@
             </androidx.constraintlayout.widget.ConstraintLayout>
 
             <androidx.constraintlayout.widget.ConstraintLayout
-                android:layout_width="410dp"
-                android:layout_height="230dp"
+                android:layout_width="match_parent"
+                android:layout_height="219dp"
                 android:layout_marginTop="3dp"
                 android:layout_marginBottom="5dp"
                 android:background="@color/white">
