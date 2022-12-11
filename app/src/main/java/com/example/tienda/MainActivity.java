@@ -1,15 +1,9 @@
 package com.example.tienda;
 
 import android.content.Intent;
-import android.graphics.Bitmap;
-import android.graphics.BitmapFactory;
-import android.graphics.drawable.Drawable;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
-import android.widget.CheckBox;
-import android.widget.ImageButton;
-import android.widget.ScrollView;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
@@ -26,8 +20,6 @@ import com.example.tienda.databinding.ActivityMainBinding;
 public class MainActivity extends AppCompatActivity {
 
     private ActivityMainBinding binding;
-    ScrollView sv;
-    CheckBox cb;
     BottomNavigationView navView;
     ConstraintLayout cesta;
     //Button irConf;
@@ -65,12 +57,11 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void abrirCesta(View view){
-        mostrarCesta(view);
+        mostrarCesta();
     }
 
-    public void mostrarCesta(View view){
+    public void mostrarCesta(){
         Intent abrirCesta = new Intent(this, Cesta.class);
-        //abrirTienda.putExtra("Nombre", nombre);
         startActivity(abrirCesta);
     }
 
