@@ -17,6 +17,9 @@ import androidx.navigation.ui.NavigationUI;
 
 import com.example.tienda.databinding.ActivityMainBinding;
 
+/**
+ * @author: Daniel Frutos, Jonanghel Jesus Barrera, Pablo Pedrazas
+ */
 public class MainActivity extends AppCompatActivity {
 
     private ActivityMainBinding binding;

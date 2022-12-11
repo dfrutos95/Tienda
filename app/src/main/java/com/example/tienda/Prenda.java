@@ -4,14 +4,12 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.app.AppCompatDelegate;
 
 import android.content.Intent;
-import android.graphics.Bitmap;
 import android.graphics.drawable.Drawable;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
 
 public class Prenda extends AppCompatActivity {
-    Drawable imagen;
     String nombre;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -21,7 +19,7 @@ public class Prenda extends AppCompatActivity {
         setContentView(R.layout.activity_prenda);
         Bundle detalles = getIntent().getExtras();
         nombre = detalles.getString("Nombre");
-        TextView tv = (TextView)findViewById(R.id.nombrePrenda);
+        TextView tv = findViewById(R.id.nombrePrenda);
         tv.setText(nombre);
 
     }
