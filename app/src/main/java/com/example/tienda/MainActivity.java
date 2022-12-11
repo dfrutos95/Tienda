@@ -14,6 +14,7 @@ import android.widget.ScrollView;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.app.AppCompatDelegate;
 import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.navigation.NavController;
 import androidx.navigation.Navigation;
@@ -32,7 +33,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-
+        AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_NO); //para forzar el modo claro
         binding = ActivityMainBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
 
@@ -70,16 +71,5 @@ public class MainActivity extends AppCompatActivity {
         //abrirTienda.putExtra("Nombre", nombre);
         startActivity(abrirCesta);
     }
-
-    /*public void onClick(View view){
-        if(cesta.isPressed()){
-            abrirCesta();
-        }
-    }
-
-    public void abrirCesta(){
-        Intent abrirCesta = new Intent(this, Cesta.class);
-        startActivity(abrirCesta);
-    }*/
 
 }
