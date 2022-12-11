@@ -30,6 +30,7 @@ public class MainActivity extends AppCompatActivity {
     CheckBox cb;
     BottomNavigationView navView;
     ConstraintLayout cesta;
+    //Button irConf;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -39,6 +40,7 @@ public class MainActivity extends AppCompatActivity {
 
         navView = findViewById(R.id.nav_view);
         cesta = (ConstraintLayout) findViewById(R.id.Cesta10);
+        //irConf = (Button) findViewById(R.id.irConf);
         // Passing each menu ID as a set of Ids because each
         // menu should be considered as top level destinations.
         AppBarConfiguration appBarConfiguration = new AppBarConfiguration.Builder(
@@ -70,6 +72,11 @@ public class MainActivity extends AppCompatActivity {
         Intent abrirCesta = new Intent(this, Cesta.class);
         //abrirTienda.putExtra("Nombre", nombre);
         startActivity(abrirCesta);
+    }
+
+    public void abrirconfiguracion(View view){
+        Intent intentconfi = new Intent(this, ConfiguracionActivity.class);
+        startActivity(intentconfi);
     }
 
 }

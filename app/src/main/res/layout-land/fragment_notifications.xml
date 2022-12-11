@@ -32,7 +32,7 @@
 
                 <TextView
                     android:id="@+id/textView5"
-                    android:layout_width="246dp"
+                    android:layout_width="564dp"
                     android:layout_height="match_parent"
                     android:gravity="center"
                     android:text="@string/saludo1"
@@ -69,7 +69,7 @@
                 <Button
                     android:id="@+id/button6"
                     style="?android:attr/borderlessButtonStyle"
-                    android:layout_width="363dp"
+                    android:layout_width="681dp"
                     android:layout_height="50dp"
                     android:text="@string/compras1"
                     android:textColor="#000000" />
@@ -89,7 +89,7 @@
                 <Button
                     android:id="@+id/buttonv"
                     style="?android:attr/borderlessButtonStyle"
-                    android:layout_width="363dp"
+                    android:layout_width="680dp"
                     android:layout_height="50dp"
                     android:layout_marginStart="0dp"
                     android:text="@string/ventas1"
@@ -114,7 +114,7 @@
                     android:id="@+id/button3"
 
                     style="?android:attr/borderlessButtonStyle"
-                    android:layout_width="361dp"
+                    android:layout_width="683dp"
                     android:layout_height="50dp"
                     android:layout_marginTop="0dp"
                     android:text="@string/monedero1"
@@ -145,14 +145,12 @@
                 <Button
                     android:id="@+id/irConf"
                     style="?android:attr/borderlessButtonStyle"
-                    android:layout_width="359dp"
+                    android:layout_width="681dp"
                     android:layout_height="50dp"
                     android:layout_marginStart="1dp"
+                    android:onClick="onClick"
                     android:text="@string/configuracion1"
-                    android:textColor="#000000"
-                    android:onClick="abrirconfiguracion"
-                    />
-
+                    android:textColor="#000000" />
 
 
             </TableRow>
@@ -172,7 +170,7 @@
                 <Button
                     android:id="@+id/button7"
                     style="?android:attr/borderlessButtonStyle"
-                    android:layout_width="355dp"
+                    android:layout_width="681dp"
                     android:layout_height="50dp"
                     android:layout_marginStart="0dp"
                     android:layout_marginTop="0dp"
@@ -199,7 +197,7 @@
                     android:id="@+id/button8"
 
                     style="?android:attr/borderlessButtonStyle"
-                    android:layout_width="355dp"
+                    android:layout_width="677dp"
                     android:layout_height="50dp"
                     android:layout_marginStart="0dp"
                     android:layout_marginTop="0dp"
@@ -232,7 +230,7 @@
                     android:id="@+id/button14"
 
                     style="?android:attr/borderlessButtonStyle"
-                    android:layout_width="355dp"
+                    android:layout_width="678dp"
                     android:layout_height="50dp"
                     android:layout_marginBottom="0dp"
                     android:text="@string/soporte1"
