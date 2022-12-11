@@ -14,5 +14,22 @@
     <string name="prenda3">Jeans</string>
     <string name="prenda4">Jeans</string>
     <string name="prenda5">T-Shirt</string>
+    <string name="compras1">SHOPPING</string>
+    <string name="ventas1">SALES</string>
+    <string name="monedero1">PURSE</string>
+    <string name="configuracion1">SETTING</string>
+    <string name="calificacion">QUALIFICATION</string>
+    <string name="comentarios1">COMMENTS</string>
+    <string name="soporte1">SUPPORT</string>
+    <string name="transacciones1">TRANSACTIONS</string>
+    <string name="cuenta1">ACCOUNT</string>
+    <string name="ayuda1">HELP</string>
+    <string name="saludo1">HI</string>
+    <string name="editar1">EDIT PROFILE</string>
+    <string name="seguridad1">SECURITY</string>
+    <string name="notificaciones1">NOTIFICATIONS</string>
+    <string name="envio1">SHIPPING ADDRESS</string>
+    <string name="cerrarsesion1">SIGN OFF</string>
+
 
 </resources>

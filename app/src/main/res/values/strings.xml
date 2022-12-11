@@ -13,4 +13,23 @@
     <string name="prenda3">Pantalón</string>
     <string name="prenda4">Pantalón</string>
     <string name="prenda5">Camiseta</string>
+    <string name="compras1">COMPRAS</string>
+    <string name="ventas1">VENTAS</string>
+    <string name="monedero1">MONEDERO</string>
+    <string name="configuracion1">CONFIGURACIÓN</string>
+    <string name="calificacion">CALIFICACIÓN</string>
+    <string name="comentarios1">COMENTARIOS</string>
+    <string name="soporte1">SOPORTE</string>
+    <string name="transacciones1">TRANSACCIÓNES</string>
+    <string name="cuenta1">CUENTA</string>
+    <string name="ayuda1">AYUDA</string>
+    <string name="saludo1">HOLA</string>
+    <string name="editar1">EDITAR PERFIL</string>
+    <string name="seguridad1">SEGURIDAD</string>
+    <string name="notificaciones1">NOTIFICACIONES</string>
+    <string name="envio1">DIRECCIÓN DE ENVÍO</string>
+    <string name="cerrarsesion1">CERRAR SESIÓN</string>
+
+
+
 </resources>

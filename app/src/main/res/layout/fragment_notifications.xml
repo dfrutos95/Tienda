@@ -17,7 +17,7 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="wrap_content"
             android:orientation="vertical">
 
             <TableRow
@@ -35,7 +35,9 @@
                     android:layout_width="246dp"
                     android:layout_height="match_parent"
                     android:gravity="center"
-                    android:text="Hola" />
+                    android:text="@string/saludo1"
+                    android:textColor="#000000"
+                    android:textSize="26sp" />
 
                 <TextView
                     android:id="@+id/nomostrar"
@@ -49,8 +51,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="#DFDFDF"
-                android:gravity="bottom|left"
-                android:text="TRANSACCIONES"
+                android:text="@string/transacciones1"
                 android:textColor="#000000"
                 android:textSize="18sp" />
 
@@ -70,7 +71,7 @@
                     style="?android:attr/borderlessButtonStyle"
                     android:layout_width="363dp"
                     android:layout_height="50dp"
-                    android:text="COMPRAS"
+                    android:text="@string/compras1"
                     android:textColor="#000000" />
             </TableRow>
 
@@ -91,7 +92,7 @@
                     android:layout_width="363dp"
                     android:layout_height="50dp"
                     android:layout_marginStart="0dp"
-                    android:text="VENTAS"
+                    android:text="@string/ventas1"
                     android:textColor="#000000" />
 
             </TableRow>
@@ -116,7 +117,7 @@
                     android:layout_width="361dp"
                     android:layout_height="50dp"
                     android:layout_marginTop="0dp"
-                    android:text="MONEDERO"
+                    android:text="@string/monedero1"
                     android:textColor="#000000" />
             </TableRow>
 
@@ -125,7 +126,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="#DFDFDF"
-                android:text="CUENTA"
+                android:text="@string/cuenta1"
                 android:textColor="#000000"
                 android:textSize="18sp" />
 
@@ -147,7 +148,7 @@
                     android:layout_width="359dp"
                     android:layout_height="50dp"
                     android:layout_marginStart="1dp"
-                    android:text="Configuración"
+                    android:text="@string/configuracion1"
                     android:textColor="#000000" />
 
             </TableRow>
@@ -172,7 +173,7 @@
                     android:layout_marginStart="0dp"
                     android:layout_marginTop="0dp"
                     android:layout_marginBottom="0dp"
-                    android:text="CALIFICACIÓN"
+                    android:text="@string/calificacion"
                     android:textColor="#000000" />
 
             </TableRow>
@@ -198,7 +199,7 @@
                     android:layout_height="50dp"
                     android:layout_marginStart="0dp"
                     android:layout_marginTop="0dp"
-                    android:text="COMENTARIOS"
+                    android:text="@string/comentarios1"
                     android:textColor="#000000" />
             </TableRow>
 
@@ -207,7 +208,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="27dp"
                 android:background="#DFDFDF"
-                android:text="AYUDA"
+                android:text="@string/ayuda1"
                 android:textColor="#000000"
                 android:textSize="18sp" />
 
@@ -221,7 +222,6 @@
                     android:layout_height="50dp"
                     android:layout_marginStart="0dp"
                     android:layout_marginBottom="0dp"
-                    android:background="#FFFFFF"
                     android:src="@android:drawable/ic_menu_info_details" />
 
                 <Button
@@ -231,7 +231,7 @@
                     android:layout_width="355dp"
                     android:layout_height="50dp"
                     android:layout_marginBottom="0dp"
-                    android:text="SOPORTE"
+                    android:text="@string/soporte1"
                     android:textColor="#000000" />
 
             </TableRow>
