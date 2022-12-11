@@ -61,7 +61,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void mostrarCesta(){
-        Intent abrirCesta = new Intent(this, Cesta.class);
+        Intent abrirCesta = new Intent(this, Activity_cesta.class);
         startActivity(abrirCesta);
     }
 
