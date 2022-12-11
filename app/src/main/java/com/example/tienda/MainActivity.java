@@ -15,6 +15,7 @@ import com.google.android.material.bottomnavigation.BottomNavigationView;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.app.AppCompatDelegate;
+import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.navigation.NavController;
 import androidx.navigation.Navigation;
 import androidx.navigation.ui.AppBarConfiguration;
@@ -28,14 +29,18 @@ public class MainActivity extends AppCompatActivity {
     ScrollView sv;
     CheckBox cb;
     BottomNavigationView navView;
+    ConstraintLayout cesta;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_NO); //forzamos el tema claro
+        AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_NO); //para forzar el modo claro
         binding = ActivityMainBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
 
-         navView = findViewById(R.id.nav_view);
+        navView = findViewById(R.id.nav_view);
+        cesta = (ConstraintLayout) findViewById(R.id.Cesta10);
+        // Passing each menu ID as a set of Ids because each
+        // menu should be considered as top level destinations.
         AppBarConfiguration appBarConfiguration = new AppBarConfiguration.Builder(
                 R.id.navigation_home, R.id.navigation_dashboard, R.id.navigation_notifications)
                 .build();
@@ -46,6 +51,7 @@ public class MainActivity extends AppCompatActivity {
 
     public void abrir(View view){
         mostrarPrenda(view);
+
     }
 
     public void mostrarPrenda(View view){
@@ -54,6 +60,16 @@ public class MainActivity extends AppCompatActivity {
         Intent abrirTienda = new Intent(this, Prenda.class);
         abrirTienda.putExtra("Nombre", nombre);
         startActivity(abrirTienda);
+    }
+
+    public void abrirCesta(View view){
+        mostrarCesta(view);
+    }
+
+    public void mostrarCesta(View view){
+        Intent abrirCesta = new Intent(this, Cesta.class);
+        //abrirTienda.putExtra("Nombre", nombre);
+        startActivity(abrirCesta);
     }
 
 }

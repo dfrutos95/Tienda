@@ -33,4 +33,6 @@ public class Prenda extends AppCompatActivity {
         Intent salir = new Intent(this, MainActivity.class);
         startActivity(salir);
     }
+
+    //Hola
 }
